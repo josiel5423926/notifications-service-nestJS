@@ -17,13 +17,14 @@
     "strict": true,
     "noImplicitAny": false,
     "strictBindCallApply": false,
+    "resolveJsonModule": true, 
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "paths": {
-      "@app/*":["./src/app/*"],
-      "@helpers/*":["./src/helpers/*"],
-      "@infra/*":["./src/infra/*"],
-      "@test/*":["./test/*"],
+      "@app/*": ["./src/app/*"],
+      "@helpers/*": ["./src/helpers/*"],
+      "@infra/*": ["./src/infra/*"],
+      "@test/*": ["./test/*"]
     }
   }
 }
